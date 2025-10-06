@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+/*---- INDEX ----*/
+
+/*---HEADER SECTION---*/
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: #48e;
+}
+
+.navbar-brand {
+    color: #000;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-item:hover {
+    background-color: #17f;
+}
+
+
+
+/*---MAIN SECTION---*/
+
+.main {
+    background-color: #f5f5f5;
+}
+
+.main__section {
+    padding: 20px ;
+}
+
+.main__title {
+    color: #000;
+    font-size: 3em;
+    padding: 15px;
+}
+
+.main__text {
+    font-size: 1.3rem;
+    text-wrap: balance;
+}
+
+.main__section,
+.main__title,
+.main__text {
+    text-align: center;
+}
+
+.main__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text {
+    margin: 10px;
+    text-align: center;
+}
+
+.main__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    flex-wrap: wrap;  
+}
+
+
+.main__img-container {
+    display: flex;
+    justify-content:center;
+}
+
+.main__img {
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/*---FOOTER SECTION---*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #48e;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer__text {
+    color: #000;
+}
+
+/*--- MEDIA QUERIES ---*/
+
+@media screen and (max-width: 480px) {
+    .main__text {
+        font-size: 1rem;
+    }
+
+    .main__img {
+        width: 100%;
+    }
+}
+
+
+/*--- ENTRENAMIENTOS ----*/
+
+.entrenamientos__intro {
+    padding: 20px;
+}
+
+.entrenamientos__text {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.entrenamientos__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;  
+    gap: 20px;                      
+    align-items: stretch;           
+}
+
+.entrenamiento:nth-child(1) {
+    grid-row: 1 / span 2;
+    align-content: center;
+}
+
+
+.entrenamiento {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.entrenamiento__img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/*--- MEDIA QUERIES ---*/
+
+@media screen and (max-width: 480px) {
+    .entrenamientos__cards {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    }
+
+    .entrenamiento:nth-child(1) {
+    grid-row: auto; 
+    }
+}
+
+/*---- GALERIA -----*/
+
+.galeria {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.galeria__text {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-wrap: balance;
+}
+
+.galeria__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.galeria__item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.galeria__item:nth-child(5){
+    align-content: center;
+}
+
+.galeria__img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.galeria__desc {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/*--- MEDIA QUERIES  ---*/
+@media screen and (max-width: 480px) {
+    .galeria__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*---FORM SECTION---*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;             
+}
+
+.form__input {
+    width: 50%;  
+    height: 40px;
+    padding: 5px;  
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 5px #666;
+}
+
+
+.form__textarea  {
+    width: 50%;
+    height: 90px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #666;
+}
+
+.form__label {
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*--- MEDIA QUERIES  ---*/
+
+@media screen and (max-width: 480px){
+    .form__input {
+        width: 100%;
+    }
+
+    .form__textarea {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

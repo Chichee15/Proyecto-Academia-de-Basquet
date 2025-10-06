@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+
+<!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="../index.html">🏀 Elite Hoops</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Entrenamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Inscripción</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    </header>
+
+<main class="main">
+    <h2 class="main__title">Inscripción</h2>
+    <section class="main__section">
+    <p class="main__text">
+    Completá el siguiente formulario para inscribirte a los entrenamientos de Elite Hoops.  
+    Nos pondremos en contacto para confirmar tu lugar y coordinar los detalles.
+    </p>
+
+    <form class="form">
+    <!-- Nombre -->
+    <label class="form__label" for="nombre">Nombre y Apellido</label>
+    <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Guido Pinelli" required>
+
+<!-- Edad -->
+    <label class="form__label" for="edad">Edad</label>
+    <input class="form__input" type="number" id="edad" name="edad">
+
+
+
+
+    <!-- Tipo de entrenamiento -->
+    <label class="form__label" for="tipo">Tipo de Entrenamiento</label>
+    <select class="form__input" id="tipo" name="tipo" required>
+        <option value="">Seleccioná una opción</option>
+        <option value="individual">Individual</option>
+        <option value="grupal">Grupal</option>
+        <option value="campus">Campus / Clínica</option>
+    </select>
+
+    <!-- Email -->
+    <label class="form__label" for="email">Email</label>
+    <input class="form__input" type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+
+    <!-- Mensaje -->
+    <label class="form__label" for="mensaje">Mensaje / Disponibilidad Horaria</label>
+    <textarea class="form__textarea" id="mensaje" name="mensaje" placeholder="Comentanos tus horarios, objetivos o dudas..."></textarea>
+
+    <!-- Botón -->
+    <button class="form__button" type="submit">Enviar Inscripción</button>
+    </form>
+</section>
+</main>
+
+
+<!-- FOOTER -->
+
+    <footer class="footer">
+        <p class="footer__text">© 2025 - Mi sitio web | Todos los derechos reservados</p>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
+
