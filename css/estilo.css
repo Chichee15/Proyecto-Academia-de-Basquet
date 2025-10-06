@@ -222,6 +222,10 @@ body {
     .galeria__grid {
         grid-template-columns: 1fr;
     }
+
+    .galeria__item {
+        width: 100%;
+    }
 }
 
 
