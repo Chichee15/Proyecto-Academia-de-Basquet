@@ -1,0 +1,19 @@
+@use "../generales/variables" as*;
+
+/*---- INDEX ----*/
+/*--- HEADER ---  */
+header .navbar {
+    background-color: $color-principal;
+}
+header .navbar .navbar-brand {
+    color: $color-texto;
+}
+header .navbar .navbar-collapse {
+    justify-content: flex-end;
+}
+header .navbar .nav-link {
+    color: $color-texto;
+}
+header .navbar .nav-link:hover {
+    background-color: #17f;
+}

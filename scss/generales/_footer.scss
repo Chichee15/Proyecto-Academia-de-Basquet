@@ -1,0 +1,14 @@
+@use "../generales/variables" as*;
+
+/*---FOOTER SECTION---*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: $color-principal;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer .footer__text {
+    color: $color-texto;
+}

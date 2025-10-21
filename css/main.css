@@ -14,15 +14,19 @@ body {
 header .navbar {
   background-color: #48e;
 }
+
 header .navbar .navbar-brand {
   color: #000;
 }
+
 header .navbar .navbar-collapse {
   justify-content: flex-end;
 }
+
 header .navbar .nav-link {
   color: #000;
 }
+
 header .navbar .nav-link:hover {
   background-color: #17f;
 }
@@ -31,29 +35,32 @@ header .navbar .nav-link:hover {
 .main {
   background-color: #f5f5f5;
 }
+
 .main .main__section {
   display: flex;
   flex-direction: column;
   padding: 20px;
   text-align: center;
 }
+
 .main .main__section .main__title {
   color: #000;
   font-size: 3em;
   padding: 15px;
   text-align: center;
 }
+
 .main .main__section .main__text {
   font-size: 1.3rem;
   text-wrap: balance;
   text-align: center;
 }
+
 @media screen and (max-width: 480px) {
   .main .main__section .main__text {
     font-size: 1rem;
   }
 }
-
 .about__text {
   margin: 10px;
   text-align: center;
@@ -67,22 +74,24 @@ header .navbar .nav-link:hover {
   margin: 30px 20px;
   flex-wrap: wrap;
 }
+
 .main__media .main__img-container {
   display: flex;
   justify-content: center;
 }
+
 .main__media .main__img-container .main__img {
   width: 50%;
   padding: 10px;
   height: auto;
   border-radius: 8px;
 }
+
 @media screen and (max-width: 480px) {
   .main__media .main__img-container .main__img {
     width: 100%;
   }
 }
-
 /*---FOOTER SECTION---*/
 .footer {
   display: flex;
@@ -92,6 +101,7 @@ header .navbar .nav-link:hover {
   margin-top: 20px;
   text-align: center;
 }
+
 .footer .footer__text {
   color: #000;
 }
@@ -100,13 +110,16 @@ header .navbar .nav-link:hover {
 .entrenamientos .entrenamientos__intro {
   padding: 20px;
 }
+
 .entrenamientos .entrenamientos__intro .main__title {
   text-align: center;
 }
+
 .entrenamientos .entrenamientos__intro .entrenamientos__text {
   text-align: center;
   font-size: 1.3rem;
 }
+
 .entrenamientos .entrenamientos__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -114,6 +127,7 @@ header .navbar .nav-link:hover {
   gap: 20px;
   align-items: stretch;
 }
+
 @media screen and (max-width: 480px) {
   .entrenamientos .entrenamientos__cards {
     grid-template-columns: 1fr;
@@ -126,10 +140,12 @@ header .navbar .nav-link:hover {
   padding: 20px;
   text-align: center;
 }
+
 .entrenamientos .entrenamientos__cards .entrenamiento:nth-child(1) {
   grid-row: 1/span 2;
   align-content: center;
 }
+
 @media screen and (max-width: 480px) {
   .entrenamientos .entrenamientos__cards .entrenamiento:nth-child(1) {
     grid-row: auto;
@@ -147,17 +163,20 @@ header .navbar .nav-link:hover {
   text-align: center;
   padding: 20px;
 }
+
 .galeria .galeria__intro .galeria__text {
   font-size: 1.3rem;
   margin-bottom: 30px;
   text-wrap: balance;
 }
+
 .galeria .galeria__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   justify-items: center;
 }
+
 @media screen and (max-width: 480px) {
   .galeria .galeria__grid {
     grid-template-columns: 1fr;
@@ -170,6 +189,7 @@ header .navbar .nav-link:hover {
   width: 90%;
   max-width: 500px;
 }
+
 @media screen and (max-width: 480px) {
   .galeria .galeria__grid .galeria__item {
     width: 100%;
@@ -178,11 +198,13 @@ header .navbar .nav-link:hover {
 .galeria .galeria__grid .galeria__item:nth-child(5) {
   align-content: center;
 }
+
 .galeria .galeria__grid .galeria__item .galeria__img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
+
 .galeria .galeria__grid .galeria__item .galeria__desc {
   margin-top: 8px;
   font-size: 1rem;
@@ -201,10 +223,12 @@ header .navbar .nav-link:hover {
   align-items: center;
   gap: 10px;
 }
+
 .form .form__label {
   margin: 5px;
   font-weight: bold;
 }
+
 .form .form__input {
   width: 50%;
   height: 40px;
@@ -213,6 +237,7 @@ header .navbar .nav-link:hover {
   border: 1px solid #ccc;
   box-shadow: 0 0 5px #666;
 }
+
 @media screen and (max-width: 480px) {
   .form .form__input {
     width: 100%;
@@ -226,6 +251,7 @@ header .navbar .nav-link:hover {
   border-radius: 5px;
   box-shadow: 0 0 5px #666;
 }
+
 @media screen and (max-width: 480px) {
   .form .form__textarea {
     width: 100%;

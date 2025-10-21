@@ -1,0 +1,57 @@
+@use "../generales/variables" as*;
+
+/*---MAIN SECTION---*/
+.main {
+    background-color: #f5f5f5;
+}
+.main .main__section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.main .main__section .main__title {
+    color: $color-texto;
+    font-size: 3em;
+    padding: 15px;
+    text-align: center;
+}
+.main .main__section .main__text {
+    font-size: 1.3rem;
+    text-wrap: balance;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .main .main__section .main__text {
+        font-size: 1rem;
+    }
+}
+
+.about__text {
+    margin: 10px;
+    text-align: center;
+}
+
+.main__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+.main__media .main__img-container {
+    display: flex;
+    justify-content: center;
+}  
+.main__media .main__img-container .main__img {
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    border-radius: 8px;
+}
+@media screen and (max-width: 480px) {
+    .main__media .main__img-container .main__img {
+        width: 100%;
+    }
+}

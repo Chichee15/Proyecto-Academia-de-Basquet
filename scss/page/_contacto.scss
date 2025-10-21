@@ -1,0 +1,46 @@
+
+
+/*---FORM SECTION---*/
+.main__title {
+    text-align: center;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.form .form__label {
+    margin: 5px;
+    font-weight: bold;
+}
+.form .form__input {
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #666;
+}
+@media screen and (max-width: 480px) {
+    .form .form__input {
+        width: 100%;
+    }
+}
+.form .form__textarea {
+    width: 50%;
+    height: 90px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #666;
+}
+@media screen and (max-width: 480px) {
+    .form .form__textarea {
+        width: 100%;
+    }
+}
