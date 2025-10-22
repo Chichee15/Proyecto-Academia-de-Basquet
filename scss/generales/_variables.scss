@@ -1,2 +1,7 @@
 $color-principal:#48e;
 $color-texto:#000;
+
+@mixin label-base {
+    margin: 5px;
+    font-weight: bold;
+}
